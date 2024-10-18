@@ -126,12 +126,12 @@ class ChatBotUI:
 
         return response.content.strip() == "YES"
 
-# Create the main application window
 if __name__ == "__main__":
     if len(sys.argv) > 1: 
         if sys.argv[1] == 'CMD':
             chatbot()
         elif sys.argv[1] == "UI":
+            # Create the main application window
             root = tk.Tk()
             app = ChatBotUI(root)
             root.mainloop()
