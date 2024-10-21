@@ -46,8 +46,6 @@ This chatbot is designed to engage in conversations, provide answers to question
      ```bash
      python Chat.py UI
      ```
-## Prompt 
-The Prompt is vital, If the prompt is not good enough, the LLM may unnecessarily invoke tools even when it could answer the question on its own.
 
 ## Framework
 
