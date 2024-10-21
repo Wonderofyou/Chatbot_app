@@ -1,5 +1,4 @@
-# Project Name
-
+# Chatbot 
 This chatbot is designed to engage in conversations, provide answers to questions about the weather, and recognize when to conclude the interaction.
 
 
@@ -46,6 +45,8 @@ This chatbot is designed to engage in conversations, provide answers to question
      ```bash
      python Chat.py UI
      ```
+## Prompt 
+The Prompt is vital, If the prompt is not good enough, the LLM may unnecessarily invoke tools even when it could answer the question on its own.
 
 ## Framework
 
@@ -67,7 +68,8 @@ This chatbot is designed to engage in conversations, provide answers to question
 
 - **Weather API**: Visual Crossing provides an API that can fetch historical weather data, allowing the chatbot to access weather information.
 
-
+### Tkinter: 
+- Tkinter is used for a simple Chatbot UI.
 ## Future Developments
 
 Looking ahead, there are several enhancements planned for the chatbot:
